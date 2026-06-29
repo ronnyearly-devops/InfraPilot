@@ -62,17 +62,46 @@ Sprint 1 includes a working incident management workflow:
 
 ## Screenshots
 
+## 📸 Application Showcase
+
+### Enterprise Dashboard
+
+The dashboard provides a centralized operational workspace where engineers can submit incidents, receive AI-generated analysis, and monitor infrastructure operations.
+
+<p align="center">
+  <img src="portfolio-assets/screenshots/dashboard-v1.png" alt="InfraPilot Dashboard" width="95%">
+</p>
+
+---
+
+### AI Incident Analysis
+
+InfraPilot uses OpenAI to generate structured incident responses including severity assessment, probable root cause, remediation guidance, suggested scripts, and an executive management summary.
+
+<p align="center">
+  <img src="portfolio-assets/screenshots/incident-details-v1.png" alt="AI Incident Analysis" width="95%">
+</p>
+
+---
+
 ### Incident History
 
-<p align="center">
-  <img src="portfolio-assets/screenshots/incident-history-modal.png" alt="Incident History Modal" width="90%">
-</p>
-
-### Full-Stack AI Workflow
+Every incident is automatically stored, allowing engineers to review previous investigations through a clean enterprise interface.
 
 <p align="center">
-  <img src="portfolio-assets/screenshots/phase-4-first-full-stack-feature.png" alt="Full Stack AI Workflow" width="90%">
+  <img src="portfolio-assets/screenshots/incident-history-v1.png" alt="Incident History" width="95%">
 </p>
+
+---
+
+### REST API Documentation
+
+InfraPilot exposes a FastAPI backend with interactive Swagger documentation, making it easy to explore and extend the platform.
+
+<p align="center">
+  <img src="portfolio-assets/screenshots/swagger-api-v1.png" alt="Swagger API" width="95%">
+</p>
+
 
 ---
 
